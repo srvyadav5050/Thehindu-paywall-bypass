@@ -1,0 +1,11 @@
+{
+  "name": "The Hindu Redirect to SMRY",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Redirects The Hindu articles to SMRY proxy",
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestWithHostAccess", "storage"],
+  "host_permissions": ["*://www.thehindu.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
